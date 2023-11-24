@@ -18,7 +18,17 @@ void decToBinary(int n){
   }
   printf("\n");
 
-}
+  //mengonversi biner ke bentuk polinomial
+  for(int j = i - 1 ; j>= 0; j--){
+    if(binaryNum[j] == 1){
+      if(j > 0){
+        printf("x^%d + ", j);
+      }
+      else{
+        printf("1");
+      }
+      }
+  }}
 int main(){
    int decimalNumber;
   
